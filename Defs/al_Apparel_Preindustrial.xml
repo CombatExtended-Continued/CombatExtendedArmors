@@ -70,7 +70,7 @@
 			<texPath>Apparel/Preindustrial/Gambeson/al_Gambeson</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-    </graphicData>
+    </graphicData>	
 		<techLevel>Neolithic</techLevel>
 		<tradeability>Sellable</tradeability>
     <generateCommonality>1</generateCommonality>
@@ -94,6 +94,9 @@
       <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1.5</EquipDelay>
 		</statBases>
+      <thingCategories Inherit='False'>
+        <li>Apparel</li>
+      </thingCategories>
 		<apparel>
 			<bodyPartGroups>
         <li>Neck</li>
@@ -128,13 +131,14 @@
       <graphicData>
         <texPath>Apparel/Preindustrial/Hauberk/al_Hauberk</texPath>
         <graphicClass>Graphic_Single</graphicClass>
-        <shaderType>CutoutComplex</shaderType>
+		<shaderType>CutoutComplex</shaderType>
       </graphicData>
       <techLevel>Medieval</techLevel>
       <tradeability>Sellable</tradeability>
       <generateCommonality>1</generateCommonality>
       <recipeMaker>
         <researchPrerequisite>Smithing</researchPrerequisite>
+		<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
       </recipeMaker>
       <costStuffCount>60</costStuffCount>
       <stuffCategories>
@@ -157,7 +161,7 @@
         <EquipDelay>1.5</EquipDelay>
       </statBases>
       <thingCategories Inherit='False'>
-        <li>Apparel</li>
+        <li>ApparelArmor</li>
       </thingCategories>
       <apparel>
         <bodyPartGroups>
@@ -190,13 +194,14 @@
       <graphicData>
         <texPath>Apparel/Preindustrial/Lamellar/al_Lamellar</texPath>
         <graphicClass>Graphic_Single</graphicClass>
-        <shaderType>CutoutComplex</shaderType>
+		<shaderType>CutoutComplex</shaderType>
       </graphicData>
       <techLevel>Medieval</techLevel>
       <tradeability>Sellable</tradeability>
       <generateCommonality>1</generateCommonality>
       <recipeMaker>
         <researchPrerequisite>Smithing</researchPrerequisite>
+		<unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
       </recipeMaker>
       <costStuffCount>70</costStuffCount>
       <stuffCategories>
@@ -219,7 +224,7 @@
         <EquipDelay>1.5</EquipDelay>
       </statBases>
       <thingCategories Inherit='False'>
-        <li>Apparel</li>
+        <li>ApparelArmor</li>
       </thingCategories>
       <apparel>
         <bodyPartGroups>
@@ -252,7 +257,7 @@
       <graphicData>
         <texPath>Apparel/Preindustrial/Helmet/al_Nasal</texPath>
         <graphicClass>Graphic_Single</graphicClass>
-        <shaderType>CutoutComplex</shaderType>
+		<shaderType>CutoutComplex</shaderType>
       </graphicData>
       <techLevel>Medieval</techLevel>
       <tradeability>Sellable</tradeability>
@@ -281,7 +286,7 @@
         <EquipDelay>2</EquipDelay>
       </statBases>
       <thingCategories Inherit='False'>
-        <li>Apparel</li>
+        <li>ArmorHeadgear</li>
       </thingCategories>
       <apparel>
          <bodyPartGroups>
@@ -338,7 +343,7 @@
         <EquipDelay>2</EquipDelay>
       </statBases>
       <thingCategories Inherit='False'>
-        <li>Apparel</li>
+        <li>ArmorHeadgear</li>
       </thingCategories>
       <apparel>
          <bodyPartGroups>
@@ -397,7 +402,7 @@
         <EquipDelay>2</EquipDelay>
       </statBases>
       <thingCategories Inherit='False'>
-        <li>Apparel</li>
+        <li>ArmorHeadgear</li>
       </thingCategories>
       <apparel>
          <bodyPartGroups>
