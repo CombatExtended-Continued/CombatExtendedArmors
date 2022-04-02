@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <!--Composite Helmet-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName ="Apparel_AdvancedHelmet"]/graphicData</xpath>
+        <value>
+            <graphicData>
+                <texPath>Apparel/Helmets/al_CompositeHelmet</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName ="Apparel_AdvancedHelmet"]/apparel/wornGraphicPath</xpath>
+        <value>
+            <wornGraphicPath>Apparel/Helmets/al_CompositeHelmet</wornGraphicPath>
+        </value>
+    </Operation>
+
+
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Apparel_AdvancedHelmet"]/statBases/MaxHitPoints</xpath>
+		<value>
+			<MaxHitPoints>80</MaxHitPoints>
+		</value>
+	</Operation>
+    
+
+    <!--Composite Vest-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName ="Apparel_CompositeVest"]/graphicData</xpath>
+        <value>
+            <graphicData>
+                <texPath>Apparel/CompositeVest/al_CompositeVest</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName ="Apparel_CompositeVest"]/apparel/wornGraphicPath</xpath>
+        <value>
+            <wornGraphicPath>Apparel/CompositeVest/al_CompositeVest</wornGraphicPath>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Apparel_CompositeVest"]/statBases/MaxHitPoints</xpath>
+		<value>
+			<MaxHitPoints>90</MaxHitPoints>
+		</value>
+	</Operation>
+
+
+    <!--Steel Armor Vest-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName ="Apparel_FlakVest"]/graphicData</xpath>
+        <value>
+            <graphicData>
+                <texPath>Apparel/CompositeVest/al_ArmorVest</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName ="Apparel_FlakVest"]/apparel/wornGraphicPath</xpath>
+        <value>
+            <wornGraphicPath>Apparel/CompositeVest/al_ArmorVest</wornGraphicPath>
+        </value>
+    </Operation>
+
+    <!--Steel Helmet-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName ="Apparel_SimpleHelmet"]/graphicData</xpath>
+        <value>
+            <graphicData>
+                <texPath>Apparel/Helmets/al_SimpleHelmet</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName ="Apparel_SimpleHelmet"]/apparel/wornGraphicPath</xpath>
+        <value>
+                <wornGraphicPath>Apparel/Helmets/al_SimpleHelmet</wornGraphicPath>
+        </value>
+    </Operation>
+
+
+    <!--Flak Jacket-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName ="Apparel_FlakJacket"]/graphicData</xpath>
+        <value>
+            <graphicData>
+                <texPath>Apparel/ArmorMisc/al_FlakJacket</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName ="Apparel_FlakJacket"]/apparel/wornGraphicPath</xpath>
+        <value>
+            <wornGraphicPath>Apparel/ArmorMisc/al_FlakJacket</wornGraphicPath>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Apparel_FlakPants"]/statBases/Mass</xpath>
+		<value>
+			<Mass>1.5</Mass>
+		</value>
+	</Operation>
+
+
+    <!--Jacket-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName ="Apparel_Jacket"]/graphicData</xpath>
+        <value>
+            <graphicData>
+                <texPath>Apparel/Clothes/al_Jacket</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName ="Apparel_Jacket"]/apparel/wornGraphicPath</xpath>
+        <value>
+            <wornGraphicPath>Apparel/Clothes/al_Jacket</wornGraphicPath>
+        </value>
+    </Operation>
+    
+
+    <!--Plate Armor-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName ="Apparel_PlateArmor"]/graphicData</xpath>
+        <value>
+            <graphicData>
+                <texPath>Apparel/Preindustrial/al_PlateArmor</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName ="Apparel_PlateArmor"]/apparel/wornGraphicPath</xpath>
+        <value>
+            <wornGraphicPath>Apparel/Preindustrial/al_PlateArmor</wornGraphicPath>
+        </value>
+    </Operation>
+
+    <!--Tac Vest-->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName ="Apparel_TacVest"]/apparel/bodyPartGroups</xpath>
+        <value>
+            <li>Torso</li>
+        </value>
+    </Operation>
+
+</Patch>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    
+
+  <!--Jumpsuit-->
+  <ThingDef ParentName="ApparelMakeableBase" Name="al_jumpsuitBase">
+    <defName>al_Jumpsuit</defName>
+    <label>jumpsuit</label>
+    <description>Jumpsuit.</description>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Apparel/Clothes/al_Jumpsuit</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>65</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>0.5</Mass>
+      <Bulk>1.5</Bulk>
+      <WornBulk>0.5</WornBulk>
+      <StuffEffectMultiplierArmor>2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+        <li>Feet</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Clothes/al_Jumpsuit</wornGraphicPath>
+      <layers>
+				<li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>IndustrialAdvanced</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+    </apparel>
+  </ThingDef>
+
+<!--
+  <ThingDef ParentName="al_jumpsuitBase">
+    <defName>al_JumpsuitCamo</defName>
+    <label>jumpsuit (camo)</label>
+    <graphicData Inherit="False">
+      <texPath>Apparel/Clothes/al_JumpsuitCammo</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath Inherit="False">Apparel/Clothes/al_JumpsuitCammo</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+-->
+  <!--Frag suit-->
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>al_FragSuit</defName>
+    <label>frag suit</label>
+    <description>A bodysuit padded with armor fabrics, worn under plate carrier for protection of limbs against shrapnel.</description>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Apparel/ArmorMisc/al_FragSuit</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Cloth>40</Cloth>
+      <DevilstrandCloth>40</DevilstrandCloth>
+    </costList>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>16000</WorkToMake>
+      <Bulk>7</Bulk>
+      <Mass>4.5</Mass>
+      <Flammability>0.6</Flammability>
+      <ArmorRating_Sharp>2.7</ArmorRating_Sharp>
+      <ArmorRating_Blunt>1.5</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.65</ArmorRating_Heat>
+      <Insulation_Cold>14.4</Insulation_Cold> 
+      <Insulation_Heat>3</Insulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+        <li>Feet</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/ArmorMisc/al_FragSuit</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>IndustrialAdvanced</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>1</weight>
+          <only>RGBA(0.47,0.48,0.41,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <ThingDef ParentName="HatMakeableBase" Name="al_BalaclavaBase">
+		<defName>al_Balaclava</defName>
+		<label>balaclava</label>
+		<description>A full face textile mask. Hides the identity of the wearer while providing warmth.</description>
+		<graphicData>
+			<texPath>Apparel/Accessories/al_Balaclava</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+		<techLevel>Industrial</techLevel>
+		<tradeability>Sellable</tradeability>
+    <generateCommonality>0.1</generateCommonality>
+		<costStuffCount>25</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>2200</WorkToMake>
+			<Mass>0.35</Mass>
+      <Bulk>0.5</Bulk>
+      <StuffEffectMultiplierArmor>1.5</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2</EquipDelay>
+		</statBases>
+		<thingCategories Inherit="False">
+			<li>Headgear</li>
+		</thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+        <li>Teeth</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/Accessories/al_Balaclava</wornGraphicPath>
+			<layers>
+				<li>OnHead</li>
+			</layers>
+			<tags>
+				<li>IndustrialMilitary</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+      </defaultOutfitTags>
+		</apparel>
+		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+
+<!--
+  <ThingDef ParentName="al_BalaclavaBase">
+		<defName>al_BalaclavaMouth</defName>
+		<label>balaclava (mouth hole)</label>
+		<graphicData Inherit="False">
+			<texPath>Apparel/Accessories/al_BalaclavaMouth</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+		<apparel>
+			<wornGraphicPath Inherit="False">Apparel/Accessories/al_BalaclavaMouth</wornGraphicPath>
+		</apparel>
+  </ThingDef>
+-->
+
+  <ThingDef ParentName="ApparelCarryGearBase">
+    <defName>al_LargeBackpack</defName>
+    <label>large backpack</label>
+    <description>A large hiking pack, functionally identical to the ones issued to infantrymen of industrial militaries.</description>
+    <graphicData>
+      <texPath>Apparel/Accessories/al_LargeBackpack</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>2.2</Mass>
+      <Bulk>3</Bulk>
+    </statBases>
+    <equippedStatOffsets>
+      <CarryBulk>50</CarryBulk>
+    </equippedStatOffsets>
+    <costStuffCount>60</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfDamaged>false</careIfDamaged>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Backpack</li>
+      </layers>
+      <tags>
+        <li>IndustrialBasic</li>
+        <li>IndustrialMilitaryBasic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <wornGraphicPath>Apparel/Accessories/al_LargeBackpack</wornGraphicPath>
+      <wornGraphicData>
+      <renderUtilityAsPack>true</renderUtilityAsPack>
+        <east>
+          <offset>(0,-0.05)</offset>
+          <thin><offset>(0.2,0)</offset></thin>
+          <hulk><offset>(0,0)</offset></hulk>
+          <fat><offset>(0,0)</offset></fat>
+          <male><offset>(0.125,0)</offset></male>
+		      <female><offset>(0.125,0)</offset></female>	
+        </east>
+        <west>
+          <offset>(0,-0.05)</offset>
+          <thin><offset>(-0.2,0)</offset></thin>
+          <hulk><offset>(0,0)</offset></hulk>
+          <fat><offset>(0,0)</offset></fat>
+          <male><offset>(-0.125,0)</offset></male>
+		      <female><offset>(-0.125,0)</offset></female>		  
+        </west>
+        <north>
+          <offset>(0,-0.1)</offset> 
+          <thin><offset>(0,0)</offset></thin>
+          <hulk><offset>(0,-0.05)</offset></hulk>
+          <fat><offset>(0,-0.05)</offset></fat>
+        </north>		
+        <male>  <scale>(1,1)</scale></male>
+        <female><scale>(1,1)</scale></female>
+        <thin>  <scale>(1,1)</scale></thin>
+        <hulk>  <scale>(1,1)</scale></hulk>
+        <fat>   <scale>(1,1)</scale></fat>
+      </wornGraphicData>
+    </apparel>
+  </ThingDef>
+
+
+</Defs>

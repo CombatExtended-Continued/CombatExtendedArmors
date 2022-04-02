@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    
+  <!-- ======================================= Helmets =======================================-->
+
+  <ThingDef ParentName="ArmorMachineableBase" Name="al_armorhelmetBase" Abstract="True">
+    <description>A lightweight combat helmet with a complex design.</description>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <uiIconScale>1.4</uiIconScale>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>1.5</Mass>
+      <ArmorRating_Sharp>8</ArmorRating_Sharp>
+      <ArmorRating_Blunt>12</ArmorRating_Blunt>
+      <Bulk>4</Bulk>
+      <ArmorRating_Heat>0.54</ArmorRating_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <thingCategories Inherit='False'>
+      <li>ArmorHeadgear</li>
+    </thingCategories>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryAdvanced</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+  
+
+  <ThingDef ParentName="al_armorhelmetBase">
+    <defName>al_CommandoHelmet</defName>
+    <label>commando helmet</label>
+    <graphicData>
+      <texPath>Apparel/Helmets/al_CommandoHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+        <Steel>30</Steel>
+        <DevilstrandCloth>15</DevilstrandCloth>
+    </costList>
+    <apparel>
+      <wornGraphicPath>Apparel/Helmets/al_CommandoHelmet</wornGraphicPath>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+    </apparel>
+  </ThingDef>
+
+<!--Face shield-->
+  <ThingDef ParentName="al_armorhelmetBase">
+    <defName>al_CompositeHelmetVisor</defName>
+    <label>visored composite helmet</label>
+    <description>A lightweight combat helmet with a complex design. This helmet has a visor mounted which signifficantly increases it's weight and makes it more cumbersome. Recomended used mostly for close quarters combat.</description>
+    <graphicData>
+      <texPath>Apparel/Helmets/al_CompositeHelmetVisorOlive</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <Mass Inherit="False">2.8</Mass>
+    </statBases>
+    <costList>
+        <Steel>30</Steel>
+        <DevilstrandCloth>20</DevilstrandCloth>
+        <Plasteel>5</Plasteel>
+    </costList>
+    <equippedStatOffsets>
+			<AimingAccuracy>-0.2</AimingAccuracy>
+            <MeleeHitChance>-1</MeleeHitChance>
+		</equippedStatOffsets>
+    <apparel>
+      <wornGraphicPath>Apparel/Helmets/al_CompositeHelmetVisorOlive</wornGraphicPath>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <layers>
+        <li>StrappedHead</li>
+        <li>Overhead</li>
+      </layers>
+    </apparel>
+  </ThingDef>
+
+      <!--  Flak Goggles  -->
+      <ThingDef ParentName="al_armorhelmetBase">
+        <defName>al_BallisticGoggles</defName>
+        <label>ballistic goggles</label>
+        <description>A pair of reinforced goggles capable of stopping shrapnel.</description>
+        <graphicData>
+          <texPath>Apparel/Accessories/al_BallisticGoggles</texPath>
+          <graphicClass>Graphic_Single</graphicClass> 
+        </graphicData>
+        <techLevel>Industrial</techLevel>
+        <tradeability>Sellable</tradeability>
+            <generateCommonality>0.1</generateCommonality>
+        <costList>
+          <Cloth>10</Cloth>
+          <Chemfuel>10</Chemfuel>
+          <DevilstrandCloth>10</DevilstrandCloth>
+        </costList>
+        <statBases>
+          <MaxHitPoints>100</MaxHitPoints>
+          <WorkToMake>5500</WorkToMake>
+          <Mass>0.2</Mass>
+          <Bulk>0.5</Bulk>
+          <WornBulk>0.5</WornBulk>
+          <ArmorRating_Sharp>4</ArmorRating_Sharp>
+          <ArmorRating_Blunt>6</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.70</ArmorRating_Heat>
+          <Insulation_Cold>4</Insulation_Cold>
+          <Insulation_Heat>2</Insulation_Heat>
+          <EquipDelay>0.6</EquipDelay>
+        </statBases>
+        <thingCategories Inherit='False'>
+          <li>ArmorHeadgear</li>
+        </thingCategories>
+        <apparel>
+          <bodyPartGroups>
+            <li>Eyes</li>
+          </bodyPartGroups>
+          <wornGraphicPath>Apparel/Accessories/al_BallisticGoggles</wornGraphicPath>
+          <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+          <layers>
+            <li>StrappedHead</li>
+          </layers>
+          <tags>
+            <li>IndustrialMilitary</li>
+            <li>IndustrialAdvanced</li>
+          </tags>
+          <defaultOutfitTags>
+            <li>Soldier</li>
+                </defaultOutfitTags>
+        </apparel>
+        <recipeMaker>
+        <researchPrerequisite>FlakArmor</researchPrerequisite>
+          <skillRequirements>
+            <Crafting>5</Crafting>
+          </skillRequirements>
+          <recipeUsers Inherit="False">
+            <li>TableMachining</li>
+          </recipeUsers>
+        </recipeMaker>
+      </ThingDef>
+
+
+</Defs>
