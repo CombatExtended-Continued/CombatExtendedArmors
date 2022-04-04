@@ -267,7 +267,7 @@
 			<li>Steeled</li>
 		</stuffCategories>
 		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
+			<MaxHitPoints>270</MaxHitPoints>
 			<WorkToMake>14000</WorkToMake>
       <Bulk>30</Bulk>
       <WornBulk>4.5</WornBulk>
@@ -291,7 +291,7 @@
 			</bodyPartGroups>
 			<wornGraphicPath>Apparel/Preindustrial/al_Cuirass</wornGraphicPath>
 			<layers>
-				<li>Shell</li>
+				<li>Middle</li>
 			</layers>
 			<tags>
         <li>Neolithic</li>
