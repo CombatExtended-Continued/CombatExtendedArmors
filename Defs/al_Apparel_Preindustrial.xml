@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!--Buff Coat-->
-  <ThingDef ParentName="ApparelMakeableBase">
+	<!--Buff Coat-->
+	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>al_BuffCoat</defName>
 		<label>buff coat</label>
 		<description>A thick leather coat, protects from cuts and minor shrapnel, prefered by infantry and cavalry alike.</description>
@@ -10,31 +10,31 @@
 			<texPath>Apparel/Preindustrial/Buffcoat/al_BuffCoat</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-    </graphicData>
+		</graphicData>
 		<techLevel>Neolithic</techLevel>
 		<tradeability>Sellable</tradeability>
-    <generateCommonality>1</generateCommonality>
+		<generateCommonality>1</generateCommonality>
 		<costStuffCount>90</costStuffCount>
 		<stuffCategories>
 			<li>Leathery</li>
 		</stuffCategories>
 		<statBases>
-			<MaxHitPoints>160</MaxHitPoints>
-			<WorkToMake>10000</WorkToMake>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToMake>7000</WorkToMake>
 			<Mass>3.6</Mass>
-      <Bulk>7.5</Bulk>
-      <WornBulk>3</WornBulk>
-      <StuffEffectMultiplierArmor>7.5</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>1.2</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>1.5</EquipDelay>
+			<Bulk>7.5</Bulk>
+			<WornBulk>3</WornBulk>
+			<StuffEffectMultiplierArmor>7.5</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>1.2</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1.5</EquipDelay>
 		</statBases>
-    <thingCategories Inherit='False'>
-      <li>Apparel</li>
-    </thingCategories>
+		<thingCategories Inherit='False'>
+			<li>Apparel</li>
+		</thingCategories>
 		<apparel>
 			<bodyPartGroups>
-        <li>Neck</li>
+				<li>Neck</li>
 				<li>Torso</li>
 				<li>Shoulders</li>
 				<li>Arms</li>
@@ -42,7 +42,7 @@
 			</bodyPartGroups>
 			<wornGraphicPath>Apparel/Preindustrial/Buffcoat/al_BuffCoat</wornGraphicPath>
 			<layers>
-				<li>Middle</li>
+				<li>OnSkin</li>
 			</layers>
 			<tags Inherit='False'>
 				<li>Neolithic</li>
@@ -51,18 +51,19 @@
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
-      </defaultOutfitTags>
+			</defaultOutfitTags>
 		</apparel>
 		<recipeMaker>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
 			<recipeUsers Inherit="False">
 				<li>ElectricTailoringBench</li>
 				<li>HandTailoringBench</li>
 			</recipeUsers>
 		</recipeMaker>
-  </ThingDef>
+	</ThingDef>
 
-  <!--Gambeson-->
-  <ThingDef ParentName="ApparelMakeableBase">
+	<!--Gambeson-->
+	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>al_Gambeson</defName>
 		<label>gambeson</label>
 		<description>A thick padded coat made of lots of fabric layers, protects from cuts and bruises</description>
@@ -70,36 +71,33 @@
 			<texPath>Apparel/Preindustrial/Gambeson/al_Gambeson</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-    </graphicData>	
+		</graphicData>
 		<techLevel>Neolithic</techLevel>
 		<tradeability>Sellable</tradeability>
-    <generateCommonality>1</generateCommonality>
-		<costStuffCount>45</costStuffCount>
+		<generateCommonality>1</generateCommonality>
+		<costStuffCount>100</costStuffCount>
 		<stuffCategories>
 			<li>Fabric</li>
 		</stuffCategories>
-    <costList>
-      <Cloth>60</Cloth>
-  </costList>
 		<statBases>
-			<MaxHitPoints>160</MaxHitPoints>
-			<WorkToMake>6000</WorkToMake>
-			<Mass>4</Mass>
-      <Bulk>10</Bulk>
-      <WornBulk>2</WornBulk>
-      <StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
-      <ArmorRating_Sharp>0.85</ArmorRating_Sharp>
-      <ArmorRating_Blunt>1.5</ArmorRating_Blunt>
-      <StuffEffectMultiplierInsulation_Cold>1.2</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>1.5</EquipDelay>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>3.5</Mass>
+			<Bulk>10</Bulk>
+			<WornBulk>3.5</WornBulk>
+			<StuffEffectMultiplierArmor>4</StuffEffectMultiplierArmor>
+			<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1</ArmorRating_Blunt>
+			<StuffEffectMultiplierInsulation_Cold>1.2</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1.5</EquipDelay>
 		</statBases>
-      <thingCategories Inherit='False'>
-        <li>Apparel</li>
-      </thingCategories>
+		<thingCategories Inherit='False'>
+			<li>Apparel</li>
+		</thingCategories>
 		<apparel>
 			<bodyPartGroups>
-        <li>Neck</li>
+				<li>Neck</li>
 				<li>Torso</li>
 				<li>Shoulders</li>
 				<li>Arms</li>
@@ -107,8 +105,7 @@
 			</bodyPartGroups>
 			<wornGraphicPath>Apparel/Preindustrial/Gambeson/al_Gambeson</wornGraphicPath>
 			<layers>
-				<li>Middle</li>
-        <li>Shell</li>
+				<li>OnSkin</li>
 			</layers>
 			<tags Inherit='False'>
 				<li>Neolithic</li>
@@ -116,14 +113,15 @@
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
-      </defaultOutfitTags>
+			</defaultOutfitTags>
 		</apparel>
 		<recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
 		</recipeMaker>
-  </ThingDef>
+	</ThingDef>
   
-    <!--Hauberk-->
+	<!--Hauberk-->
+	<!-- This and below items are redundant when compared to plate mail and bascinet
     <ThingDef ParentName="ArmorSmithableBase">
       <defName>al_Hauberk</defName>
       <label>hauberk</label>
@@ -184,9 +182,10 @@
         </defaultOutfitTags>
       </apparel>
     </ThingDef>
+	-->
 
-
-    <!--Lamellar-->
+	<!--Lamellar-->
+	<!--  
     <ThingDef ParentName="ArmorSmithableBase">
       <defName>al_Lamellar</defName>
       <label>lamellar armor</label>
@@ -247,9 +246,10 @@
         </defaultOutfitTags>
       </apparel>
     </ThingDef>
+	-->
 
-
-    <!--Nasal-->
+	<!--Nasal-->
+	<!--
     <ThingDef ParentName="ArmorHelmetMakeableBase">
       <defName>al_Nasal</defName>
       <label>nasal helm</label>
@@ -304,6 +304,7 @@
         </defaultOutfitTags>
       </apparel>
     </ThingDef>
+	
 
     <ThingDef ParentName="ArmorHelmetMakeableBase">
       <defName>al_NasalCoif</defName>
@@ -422,6 +423,6 @@
           <li>Soldier</li>
         </defaultOutfitTags>
       </apparel>
-    </ThingDef>
+    </ThingDef> -->
 
 </Defs>
