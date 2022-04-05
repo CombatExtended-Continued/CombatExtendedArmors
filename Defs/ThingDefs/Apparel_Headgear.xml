@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ==================== Balaclava ==================== -->
+
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>CE_Armor_Balaclava</defName>
+    <label>balaclava</label>
+    <description>A full face textile mask. Hides the identity of the wearer while providing warmth.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Balaclava/Balaclava</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <generateCommonality>0.1</generateCommonality>
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>2200</WorkToMake>
+      <Mass>0.35</Mass>
+      <Bulk>0.5</Bulk>
+      <StuffEffectMultiplierArmor>1.5</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <thingCategories Inherit="False">
+      <li>Headgear</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+        <li>Teeth</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Balaclava/Balaclava</wornGraphicPath>
+      <layers>
+        <li>OnHead</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <recipeUsers Inherit="False">
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+
+  <!-- ==================== Ballistic Goggles ==================== -->
+
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>CE_Armor_BallisticGoggles</defName>
+    <label>ballistic goggles</label>
+    <description>A pair of reinforced goggles capable of stopping shrapnel.</description>
+    <graphicData>
+      <texPath>Things/Apparel/BallisticGoggles/BallisticGoggles</texPath>
+      <graphicClass>Graphic_Single</graphicClass> 
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <generateCommonality>0.1</generateCommonality>
+    <costList>
+      <Steel>20</Steel>
+      <Chemfuel>10</Chemfuel>
+      <DevilstrandCloth>15</DevilstrandCloth>
+    </costList>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>5500</WorkToMake>
+      <Mass>0.2</Mass>
+      <Bulk>0.5</Bulk>
+      <WornBulk>0.5</WornBulk>
+      <ArmorRating_Sharp>4</ArmorRating_Sharp>
+      <ArmorRating_Blunt>6</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.35</ArmorRating_Heat>
+      <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>0.6</EquipDelay>
+    </statBases>
+    <thingCategories Inherit='False'>
+      <li>ArmorHeadgear</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Eyes</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/BallisticGoggles/BallisticGoggles</wornGraphicPath>
+      <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+      <layers>
+        <li>StrappedHead</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+
+
+</Defs>

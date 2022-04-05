@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ==================== Large Backpack ==================== -->
+
+  <ThingDef ParentName="ApparelCarryGearBase">
+    <defName>CE_Armor_LargeBackpack</defName>
+    <label>large backpack</label>
+    <description>A large hiking pack, functionally identical to the ones issued to infantrymen of industrial militaries.</description>
+    <graphicData>
+      <texPath>Things/Apparel/LargeBackpack/LargeBackpack</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>2.2</Mass>
+      <Bulk>5</Bulk>
+    </statBases>
+    <equippedStatOffsets>
+      <CarryBulk>50</CarryBulk>
+    </equippedStatOffsets>
+    <costStuffCount>60</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfDamaged>false</careIfDamaged>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Backpack</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+		<li>IndustrialMilitaryAdvanced</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <wornGraphicPath>Things/Apparel/LargeBackpack/LargeBackpack</wornGraphicPath>
+      <wornGraphicData>
+      <renderUtilityAsPack>true</renderUtilityAsPack>
+        <east>
+          <offset>(0,-0.05)</offset>
+          <thin><offset>(0.2,0)</offset></thin>
+          <hulk><offset>(0,0)</offset></hulk>
+          <fat><offset>(0,0)</offset></fat>
+          <male><offset>(0.125,0)</offset></male>
+          <female><offset>(0.125,0)</offset></female>	
+        </east>
+        <west>
+          <offset>(0,-0.05)</offset>
+          <thin><offset>(-0.2,0)</offset></thin>
+          <hulk><offset>(0,0)</offset></hulk>
+          <fat><offset>(0,0)</offset></fat>
+          <male><offset>(-0.125,0)</offset></male>
+          <female><offset>(-0.125,0)</offset></female>		  
+        </west>
+        <north>
+          <offset>(0,-0.1)</offset> 
+          <thin><offset>(0,0)</offset></thin>
+          <hulk><offset>(0,-0.05)</offset></hulk>
+          <fat><offset>(0,-0.05)</offset></fat>
+        </north>		
+          <male>  <scale>(1,1)</scale></male>
+          <female><scale>(1,1)</scale></female>
+          <thin>  <scale>(1,1)</scale></thin>
+          <hulk>  <scale>(1,1)</scale></hulk>
+          <fat>   <scale>(1,1)</scale></fat>
+      </wornGraphicData>
+    </apparel>
+  </ThingDef>
+
+</Defs>
