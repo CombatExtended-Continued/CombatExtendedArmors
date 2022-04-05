@@ -114,7 +114,7 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-	<colorGenerator Class="ColorGenerator_StandardApparel" />
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
 
   <!-- ==================== Jumpsuit ==================== -->
@@ -130,7 +130,7 @@
     <recipeMaker>
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
     </recipeMaker>
-	<techLevel>Industrial</techLevel>
+    <techLevel>Industrial</techLevel>
     <costStuffCount>100</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
@@ -251,8 +251,8 @@
         <Crafting>6</Crafting>
       </skillRequirements>
     </recipeMaker>
-	<techLevel>Industrial</techLevel>
-	<generateCommonality>0.5</generateCommonality>
+    <techLevel>Industrial</techLevel>
+    <generateCommonality>0.5</generateCommonality>
     <costStuffCount>70</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
@@ -267,13 +267,13 @@
       <MaxHitPoints>200</MaxHitPoints>
       <WorkToMake>16000</WorkToMake>
       <Bulk>7</Bulk>
-	  <WornBulk>3.5</WornBulk>
+      <WornBulk>3.5</WornBulk>
       <Mass>4.5</Mass>
       <Flammability>0.6</Flammability>
       <StuffEffectMultiplierArmor>4</StuffEffectMultiplierArmor>
       <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
       <ArmorRating_Blunt>1.0</ArmorRating_Blunt>
-	  <ArmorRating_Heat>0.1</ArmorRating_Heat>
+      <ArmorRating_Heat>0.1</ArmorRating_Heat>
       <StuffEffectMultiplierInsulation_Cold>0.8</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>5</EquipDelay>
@@ -292,7 +292,7 @@
       </layers>
       <tags>
         <li>IndustrialMilitaryBasic</li>
-		<li>IndustrialMilitaryAdvanced</li>
+        <li>IndustrialMilitaryAdvanced</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
