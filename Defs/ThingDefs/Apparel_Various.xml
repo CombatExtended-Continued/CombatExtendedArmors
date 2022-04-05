@@ -131,7 +131,7 @@
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
     </recipeMaker>
     <techLevel>Industrial</techLevel>
-    <costStuffCount>100</costStuffCount>
+    <costStuffCount>80</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
@@ -143,7 +143,7 @@
       <Bulk>5</Bulk>
       <WornBulk>2.5</WornBulk>
       <StuffEffectMultiplierArmor>5</StuffEffectMultiplierArmor>
-      <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+      <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
       <StuffEffectMultiplierInsulation_Cold>0.6</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
