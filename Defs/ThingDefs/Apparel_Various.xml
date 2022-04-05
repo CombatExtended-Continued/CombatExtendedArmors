@@ -221,7 +221,7 @@
       <bodyPartGroups>
         <li>Torso</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/BulletproofVest/BulletproofVest</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/SoftArmorVest/SoftArmor</wornGraphicPath>
       <layers>
         <li>Middle</li>
       </layers>
