@@ -206,7 +206,7 @@
       <Mass>1.0</Mass>
       <Bulk>5</Bulk>
       <WornBulk>2.0</WornBulk>
-      <StuffEffectMultiplierArmor>2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>3</StuffEffectMultiplierArmor>
       <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
       <StuffEffectMultiplierInsulation_Cold>0.6</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
@@ -243,15 +243,21 @@
       <li Class="CombatExtended.PartialArmorExt">
          <stats>
            <li>
-            <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+            <ArmorRating_Sharp>0.66</ArmorRating_Sharp>
             <parts>
               <li>Hand</li>
             </parts>
           </li>
            <li>
-            <ArmorRating_Blunt>0.33</ArmorRating_Blunt>
+            <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
             <parts>
               <li>Hand</li>
+            </parts>
+          </li>
+          <li>
+            <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+            <parts>
+              <li>Foot</li>
             </parts>
           </li>
         </stats>
