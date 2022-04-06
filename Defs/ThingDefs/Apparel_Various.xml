@@ -6,7 +6,7 @@
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>CE_Armor_Gambeson</defName>
     <label>gambeson</label>
-    <description>A thick padded coat made of lots of fabric layers, protects from cuts and bruises</description>
+    <description>A thick padded coat made of lots of fabric layers, protects from cuts and bruises. Comes with a pair of shoes and mittens.</description>
     <graphicData>
       <texPath>Things/Apparel/Gambeson/Gambeson</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -43,6 +43,8 @@
         <li>Shoulders</li>
         <li>Arms</li>
         <li>Legs</li>
+        <li>Hands</li>
+        <li>Feet</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Apparel/Gambeson/Gambeson</wornGraphicPath>
       <layers>
@@ -55,6 +57,36 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
+    <modExtensions>
+      <li Class="CombatExtended.PartialArmorExt">
+         <stats>
+           <li>
+            <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+            <parts>
+              <li>Hand</li>
+            </parts>
+          </li>
+           <li>
+            <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+            <parts>
+              <li>Hand</li>
+            </parts>
+          </li>
+          <li>
+            <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+            <parts>
+              <li>Foot</li>
+            </parts>
+          </li>
+          <li>
+            <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+            <parts>
+              <li>Foot</li>
+            </parts>
+          </li>
+        </stats>
+      </li>
+    </modExtensions>
   </ThingDef>
 
   <!-- ==================== Cuirass ==================== -->
@@ -154,7 +186,7 @@
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>CE_Armor_Jumpsuit</defName>
     <label>jumpsuit</label>
-    <description>A full body jumpsuit made out of thick fabric or leather. Excellent for general body protection and manual labour.</description>
+    <description>A full body jumpsuit made out of thick fabric or leather. Excellent for general body protection and manual labour. Comes with a pair of shoes and gloves.</description>
     <graphicData>
       <texPath>Things/Apparel/Jumpsuit/Jumpsuit</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -174,7 +206,7 @@
       <Mass>1.0</Mass>
       <Bulk>5</Bulk>
       <WornBulk>2.0</WornBulk>
-      <StuffEffectMultiplierArmor>4</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>3</StuffEffectMultiplierArmor>
       <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
       <StuffEffectMultiplierInsulation_Cold>0.6</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
@@ -193,6 +225,8 @@
         <li>Shoulders</li>
         <li>Arms</li>
         <li>Legs</li>
+        <li>Hands</li>
+        <li>Feet</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Apparel/Jumpsuit/Jumpsuit</wornGraphicPath>
       <layers>
@@ -205,6 +239,30 @@
         <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
+    <modExtensions>
+      <li Class="CombatExtended.PartialArmorExt">
+         <stats>
+           <li>
+            <ArmorRating_Sharp>0.66</ArmorRating_Sharp>
+            <parts>
+              <li>Hand</li>
+            </parts>
+          </li>
+           <li>
+            <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+            <parts>
+              <li>Hand</li>
+            </parts>
+          </li>
+          <li>
+            <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+            <parts>
+              <li>Foot</li>
+            </parts>
+          </li>
+        </stats>
+      </li>
+    </modExtensions>
   </ThingDef>
 
   <!-- ==================== Soft Armor Vest ==================== -->
@@ -303,7 +361,7 @@
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>CE_Armor_FragSuit</defName>
     <label>frag suit</label>
-    <description>A bodysuit padded with armor fabrics, worn under plate carrier for protection of limbs against shrapnel.</description>
+    <description>A bodysuit padded with armor fabrics, worn under plate carrier for protection of limbs against shrapnel. Comes with a pair and boots and gloves.</description>
     <graphicData>
       <texPath>Things/Apparel/FragSuit/FragSuit</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -349,6 +407,8 @@
         <li>Shoulders</li>
         <li>Arms</li>
         <li>Legs</li>
+        <li>Hands</li>
+        <li>Feet</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Apparel/FragSuit/FragSuit</wornGraphicPath>
       <layers>
@@ -370,6 +430,36 @@
         </li>
       </options>
     </colorGenerator>
+    <modExtensions>
+      <li Class="CombatExtended.PartialArmorExt">
+         <stats>
+           <li>
+            <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+            <parts>
+              <li>Hand</li>
+            </parts>
+          </li>
+           <li>
+            <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+            <parts>
+              <li>Hand</li>
+            </parts>
+          </li>
+          <li>
+            <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+            <parts>
+              <li>Foot</li>
+            </parts>
+          </li>
+          <li>
+            <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+            <parts>
+              <li>Foot</li>
+            </parts>
+          </li>
+        </stats>
+      </li>
+    </modExtensions>
   </ThingDef>
 
 </Defs>
