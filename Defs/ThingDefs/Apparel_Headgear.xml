@@ -24,7 +24,7 @@
       <Bulk>0.5</Bulk>
       <StuffEffectMultiplierArmor>1.5</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>2</EquipDelay>
     </statBases>
     <thingCategories Inherit="False">
@@ -82,9 +82,9 @@
       <ArmorRating_Sharp>4</ArmorRating_Sharp>
       <ArmorRating_Blunt>6</ArmorRating_Blunt>
       <ArmorRating_Heat>0.35</ArmorRating_Heat>
-      <Insulation_Cold>4</Insulation_Cold>
-      <Insulation_Heat>2</Insulation_Heat>
-      <EquipDelay>0.6</EquipDelay>
+      <Insulation_Cold>1</Insulation_Cold>
+      <Insulation_Heat>0</Insulation_Heat>
+      <EquipDelay>1</EquipDelay>
     </statBases>
     <thingCategories Inherit='False'>
       <li>ArmorHeadgear</li>
@@ -108,7 +108,7 @@
     <recipeMaker>
       <researchPrerequisite>FlakArmor</researchPrerequisite>
       <skillRequirements>
-        <Crafting>5</Crafting>
+        <Crafting>6</Crafting>
       </skillRequirements>
       <recipeUsers Inherit="False">
         <li>TableMachining</li>
