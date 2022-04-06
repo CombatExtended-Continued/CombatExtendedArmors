@@ -1,15 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Combat Extended: Armors</name>
-	<author>Combat Extended Team</author>
+	<name>Combat Extended Armors</name>
+	<author>CE Team</author>
+	<url>https://github.com/CombatExtended-Continued/CombatExtendedGuns</url>
+	<description>Version: 1.3.1\n\nAdds new apparel to utilize CE mechanics.</description>	
 	<supportedVersions>
 	  <li>1.3</li>
 	</supportedVersions>
-	<packageId>CETeam.Apparels</packageId>
-	<description>misc apparels and retextures</description>
-	<loadAfter>
-		<li>CETeam.CombatExtended</li>
-	</loadAfter>
+	<packageId>CETeam.CombatExtendedArmors</packageId>
 	<modDependencies>	
 		<li>
 			<packageId>CETeam.CombatExtended</packageId>
@@ -18,4 +16,7 @@
 			<downloadUrl>https://github.com/CombatExtendedRWMod/CombatExtended/releases</downloadUrl>
 		</li>
 	</modDependencies>
+	<loadAfter>
+		<li>CETeam.CombatExtended</li>
+	</loadAfter>
 </ModMetaData>
