@@ -101,6 +101,8 @@
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Apparel/Cuirass/Cuirass</wornGraphicPath>
       <layers>
@@ -114,6 +116,36 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
+    <modExtensions>
+      <li Class="CombatExtended.PartialArmorExt">
+         <stats>
+           <li>
+            <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+            <parts>
+              <li>Neck</li>
+            </parts>
+          </li>
+           <li>
+            <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+            <parts>
+              <li>Neck</li>
+            </parts>
+          </li>
+          <li>
+            <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+            <parts>
+              <li>Shoulder</li>
+            </parts>
+          </li>
+          <li>
+            <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+            <parts>
+              <li>Shoulder</li>
+            </parts>
+          </li>
+        </stats>
+      </li>
+    </modExtensions>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
 
@@ -206,7 +238,9 @@
       <WorkToMake>11000</WorkToMake>
       <Bulk>5</Bulk>
       <Mass>3</Mass>
-      <StuffEffectMultiplierArmor>12</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>6</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>3</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
       <ArmorRating_Heat>0.15</ArmorRating_Heat>
       <Insulation_Cold>2</Insulation_Cold>
       <Insulation_Heat>0</Insulation_Heat>
@@ -218,6 +252,8 @@
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Apparel/SoftArmorVest/SoftArmor</wornGraphicPath>
       <layers>
@@ -230,6 +266,36 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
+    <modExtensions>
+      <li Class="CombatExtended.PartialArmorExt">
+         <stats>
+           <li>
+            <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+            <parts>
+              <li>Neck</li>
+            </parts>
+          </li>
+           <li>
+            <ArmorRating_Blunt>0.80</ArmorRating_Blunt>
+            <parts>
+              <li>Neck</li>
+            </parts>
+          </li>
+          <li>
+            <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+            <parts>
+              <li>Shoulder</li>
+            </parts>
+          </li>
+          <li>
+            <ArmorRating_Blunt>0.80</ArmorRating_Blunt>
+            <parts>
+              <li>Shoulder</li>
+            </parts>
+          </li>
+        </stats>
+      </li>
+    </modExtensions>
   </ThingDef>
 
   <!-- ==================== Frag Suit ==================== -->
