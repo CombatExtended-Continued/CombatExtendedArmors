@@ -270,7 +270,7 @@
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>CE_Armor_SoftVest</defName>
     <label>soft armor vest</label>
-    <description>A soft armor vest, signifficantly lighter than plate carriers but less protective.</description>
+    <description>A soft armor vest, significantly lighter than plate carriers but less protective.</description>
     <graphicData>
       <texPath>Things/Apparel/SoftArmorVest/SoftArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
