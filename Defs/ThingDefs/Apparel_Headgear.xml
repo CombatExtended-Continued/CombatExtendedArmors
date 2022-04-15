@@ -65,7 +65,7 @@
     <costStuffCount>30</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
-	  <li>Leathery</li>
+      <li>Leathery</li>
     </stuffCategories>
     <costList>
       <DevilstrandCloth>10</DevilstrandCloth>
@@ -75,7 +75,7 @@
       <WorkToMake>2500</WorkToMake>
       <Mass>0.2</Mass>
       <Bulk>5</Bulk>
-	  <WornBulk>1</WornBulk>
+      <WornBulk>1</WornBulk>
       <StuffEffectMultiplierArmor>2</StuffEffectMultiplierArmor>
       <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
@@ -102,8 +102,8 @@
         <li>IndustrialMilitaryBasic</li>
       </tags>
       <defaultOutfitTags>
-		<li>Worker</li>
-		<li>Soldier</li>
+        <li>Worker</li>
+        <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
     <recipeMaker>
