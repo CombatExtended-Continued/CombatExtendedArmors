@@ -27,10 +27,8 @@
       <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>2</EquipDelay>
     </statBases>
-    <thingCategories Inherit="False">
-      <li>Headgear</li>
-    </thingCategories>
     <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <bodyPartGroups>
         <li>UpperHead</li>
         <li>Teeth</li>
@@ -48,17 +46,82 @@
     </apparel>
     <recipeMaker>
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
-      <recipeUsers Inherit="False">
-        <li>ElectricTailoringBench</li>
-        <li>HandTailoringBench</li>
-      </recipeUsers>
     </recipeMaker>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
 
-  <!-- ==================== Ballistic Goggles ==================== -->
+  <!-- ==================== Sombrero ==================== -->
 
   <ThingDef ParentName="HatMakeableBase">
+    <defName>CE_Armor_Sombrero</defName>
+    <label>sombrero</label>
+    <description>A type of wide-brimmed hat used to shield the face and eyes from the sun. Comes with Devilstrand lining to protect the wearer's noggin from the harsh Rimworld environment.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Sombrero/Sombrero</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <generateCommonality>0.5</generateCommonality>
+    <costStuffCount>30</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costList>
+      <DevilstrandCloth>10</DevilstrandCloth>
+    </costList>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>2500</WorkToMake>
+      <Mass>0.2</Mass>
+      <Bulk>5</Bulk>
+      <WornBulk>1</WornBulk>
+      <StuffEffectMultiplierArmor>2</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.05</ArmorRating_Heat>
+      <StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.65</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.15</SocialImpact>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
+    </equippedStatOffsets>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Sombrero/Sombrero</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialAdvanced</li>
+        <li>IndustrialMilitaryBasic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>20</weight>
+          <only>(0.45,0.3,0.1,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <!-- ==================== Ballistic Goggles ==================== -->
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>CE_Armor_BallisticGoggles</defName>
     <label>ballistic goggles</label>
     <description>A pair of reinforced goggles capable of stopping shrapnel.</description>
@@ -67,7 +130,7 @@
       <graphicClass>Graphic_Single</graphicClass> 
     </graphicData>
     <techLevel>Industrial</techLevel>
-    <generateCommonality>0.1</generateCommonality>
+    <generateCommonality>0.25</generateCommonality>
     <costList>
       <Steel>20</Steel>
       <Chemfuel>10</Chemfuel>
@@ -86,10 +149,8 @@
       <Insulation_Heat>0</Insulation_Heat>
       <EquipDelay>1</EquipDelay>
     </statBases>
-    <thingCategories Inherit='False'>
-      <li>ArmorHeadgear</li>
-    </thingCategories>
     <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <bodyPartGroups>
         <li>Eyes</li>
       </bodyPartGroups>
@@ -110,9 +171,6 @@
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
-      <recipeUsers Inherit="False">
-        <li>TableMachining</li>
-      </recipeUsers>
     </recipeMaker>
   </ThingDef>
 

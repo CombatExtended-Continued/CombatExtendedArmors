@@ -91,7 +91,7 @@
 
   <!-- ==================== Cuirass ==================== -->
 
-  <ThingDef ParentName="ApparelMakeableBase">
+  <ThingDef ParentName="ArmorSmithableBase">
     <defName>CE_Armor_Cuirass</defName>
     <label>cuirass</label>
     <description>A thick metal chest plate providing the wearer with a high protection of the torso area.</description>
@@ -100,16 +100,11 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <recipeMaker>
-      <soundWorking>Recipe_Smith</soundWorking>
       <researchPrerequisite>PlateArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
-      <recipeUsers Inherit="False">
-        <li>ElectricSmithy</li>
-        <li>FueledSmithy</li>
-      </recipeUsers>
     </recipeMaker>
     <techLevel>Medieval</techLevel>
     <costStuffCount>80</costStuffCount>
@@ -265,6 +260,98 @@
     </modExtensions>
   </ThingDef>
 
+  <!-- ==================== Poncho ==================== -->
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>CE_Armor_Poncho</defName>
+    <label>poncho</label>
+    <description>An outer garment designed to keep the body warm. It has an extra piece of fabric serving as a hood to ward off wind and rain. Comes with Devilstrand lining to protect the wearer's body from the harsh Rimworld environment.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Poncho/Poncho</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    </recipeMaker>
+    <techLevel>Industrial</techLevel>
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costList>
+      <DevilstrandCloth>20</DevilstrandCloth>
+    </costList>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>2.5</Mass>
+      <Bulk>8.5</Bulk>
+      <WornBulk>3.0</WornBulk>
+      <StuffEffectMultiplierArmor>6</StuffEffectMultiplierArmor>
+      <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.05</ArmorRating_Heat>
+      <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.7</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.05</SocialImpact>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/Poncho/Poncho</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>IndustrialAdvanced</li>
+        <li>IndustrialMilitaryBasic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>20</weight>
+          <only>(0.43,0.07,0.07,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <modExtensions>
+      <li Class="CombatExtended.PartialArmorExt">
+         <stats>
+           <li>
+            <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+            <parts>
+              <li>Head</li>
+            </parts>
+          </li>
+           <li>
+            <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+            <parts>
+              <li>Head</li>
+            </parts>
+          </li>
+        </stats>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
   <!-- ==================== Soft Armor Vest ==================== -->
 
   <ThingDef ParentName="ApparelMakeableBase">
@@ -280,10 +367,6 @@
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
-      <recipeUsers Inherit="False">
-        <li>ElectricTailoringBench</li>
-        <li>HandTailoringBench</li>
-      </recipeUsers>
     </recipeMaker>
     <techLevel>Industrial</techLevel>
     <generateCommonality>0.25</generateCommonality>
@@ -304,7 +387,7 @@
       <Insulation_Heat>0</Insulation_Heat>
       <EquipDelay>3.5</EquipDelay>
     </statBases>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>ApparelArmor</li>
     </thingCategories>
     <apparel>
@@ -375,7 +458,7 @@
     </recipeMaker>
     <techLevel>Industrial</techLevel>
     <generateCommonality>0.5</generateCommonality>
-    <costStuffCount>70</costStuffCount>
+    <costStuffCount>80</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
