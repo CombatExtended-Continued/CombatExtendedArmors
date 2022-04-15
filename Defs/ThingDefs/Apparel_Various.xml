@@ -320,8 +320,8 @@
         <li>IndustrialMilitaryBasic</li>
       </tags>
       <defaultOutfitTags>
-		<li>Worker</li>
-		<li>Soldier</li>
+        <li>Worker</li>
+        <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
