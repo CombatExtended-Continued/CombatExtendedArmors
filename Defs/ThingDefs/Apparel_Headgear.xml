@@ -93,12 +93,11 @@
         <li>Overhead</li>
       </layers>
       <tags>
-        <li>IndustrialAdvanced</li>
-        <li>IndustrialMilitaryBasic</li>
+        <li>IndustrialBasic</li>
+        <li>Western</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
-        <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
     <recipeMaker>
