@@ -55,7 +55,7 @@
   <ThingDef ParentName="HatMakeableBase">
     <defName>CE_Armor_Sombrero</defName>
     <label>sombrero</label>
-    <description>A type of wide-brimmed hat used to shield the face and eyes from the sun. Comes with Devilstrand lining to protect the wearer's noggin from the harsh Rimworld environment.</description>
+    <description>A type of wide-brimmed hat used to shield the face and eyes from the sun.</description>
     <graphicData>
       <texPath>Things/Apparel/Sombrero/Sombrero</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -73,8 +73,7 @@
       <Mass>0.2</Mass>
       <Bulk>5</Bulk>
       <WornBulk>1</WornBulk>
-      <StuffEffectMultiplierArmor>2</StuffEffectMultiplierArmor>
-      <ArmorRating_Heat>0.05</ArmorRating_Heat>
+      <StuffEffectMultiplierArmor>2.5</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.65</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1</EquipDelay>

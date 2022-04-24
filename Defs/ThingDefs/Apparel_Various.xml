@@ -265,7 +265,7 @@
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>CE_Armor_Poncho</defName>
     <label>poncho</label>
-    <description>An outer garment designed to keep the body warm. It has an extra piece of fabric serving as a hood to ward off wind and rain. Comes with Devilstrand lining to protect the wearer's body from the harsh Rimworld environment.</description>
+    <description>An outer garment designed to keep the body warm. It has an extra piece of fabric serving as a hood to ward off wind and rain.</description>
     <graphicData>
       <texPath>Things/Apparel/Poncho/Poncho</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -284,9 +284,8 @@
       <WorkToMake>10000</WorkToMake>
       <Mass>2.5</Mass>
       <Bulk>8.5</Bulk>
-      <WornBulk>3.0</WornBulk>
-      <StuffEffectMultiplierArmor>4</StuffEffectMultiplierArmor>
-      <ArmorRating_Heat>0.05</ArmorRating_Heat>
+      <WornBulk>2.5</WornBulk>
+      <StuffEffectMultiplierArmor>5</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.7</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>3</EquipDelay>
