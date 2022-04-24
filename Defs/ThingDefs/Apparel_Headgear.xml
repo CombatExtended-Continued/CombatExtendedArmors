@@ -67,9 +67,6 @@
       <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
-    <costList>
-      <DevilstrandCloth>10</DevilstrandCloth>
-    </costList>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <WorkToMake>2500</WorkToMake>
@@ -77,8 +74,6 @@
       <Bulk>5</Bulk>
       <WornBulk>1</WornBulk>
       <StuffEffectMultiplierArmor>2</StuffEffectMultiplierArmor>
-      <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
       <ArmorRating_Heat>0.05</ArmorRating_Heat>
       <StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.65</StuffEffectMultiplierInsulation_Heat>
@@ -98,12 +93,11 @@
         <li>Overhead</li>
       </layers>
       <tags>
-        <li>IndustrialAdvanced</li>
-        <li>IndustrialMilitaryBasic</li>
+        <li>IndustrialBasic</li>
+        <li>Western</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
-        <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
     <recipeMaker>
@@ -132,9 +126,8 @@
     <techLevel>Industrial</techLevel>
     <generateCommonality>0.25</generateCommonality>
     <costList>
-      <Steel>20</Steel>
-      <Chemfuel>10</Chemfuel>
-      <DevilstrandCloth>15</DevilstrandCloth>
+      <Steel>30</Steel>
+      <Chemfuel>40</Chemfuel>
     </costList>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
@@ -142,8 +135,8 @@
       <Mass>0.2</Mass>
       <Bulk>0.5</Bulk>
       <WornBulk>0.5</WornBulk>
-      <ArmorRating_Sharp>4</ArmorRating_Sharp>
-      <ArmorRating_Blunt>6</ArmorRating_Blunt>
+      <ArmorRating_Sharp>2</ArmorRating_Sharp>
+      <ArmorRating_Blunt>4</ArmorRating_Blunt>
       <ArmorRating_Heat>0.35</ArmorRating_Heat>
       <Insulation_Cold>1</Insulation_Cold>
       <Insulation_Heat>0</Insulation_Heat>

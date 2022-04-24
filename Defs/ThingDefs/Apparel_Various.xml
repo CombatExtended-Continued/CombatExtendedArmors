@@ -279,18 +279,13 @@
       <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
-    <costList>
-      <DevilstrandCloth>20</DevilstrandCloth>
-    </costList>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <WorkToMake>10000</WorkToMake>
       <Mass>2.5</Mass>
       <Bulk>8.5</Bulk>
       <WornBulk>3.0</WornBulk>
-      <StuffEffectMultiplierArmor>6</StuffEffectMultiplierArmor>
-      <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+      <StuffEffectMultiplierArmor>4</StuffEffectMultiplierArmor>
       <ArmorRating_Heat>0.05</ArmorRating_Heat>
       <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.7</StuffEffectMultiplierInsulation_Heat>
@@ -317,11 +312,9 @@
       </layers>
       <tags>
         <li>IndustrialAdvanced</li>
-        <li>IndustrialMilitaryBasic</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
-        <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
