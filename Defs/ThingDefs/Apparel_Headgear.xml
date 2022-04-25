@@ -60,7 +60,7 @@
       <texPath>Things/Apparel/Sombrero/Sombrero</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <techLevel>Neolithic</techLevel>
+    <techLevel>Industrial</techLevel>
     <generateCommonality>0.5</generateCommonality>
     <costStuffCount>30</costStuffCount>
     <stuffCategories>
