@@ -461,7 +461,7 @@
       <li>ApparelArmor</li>
     </thingCategories>
     <statBases>
-      <MaxHitPoints>260</MaxHitPoints>
+      <MaxHitPoints>200</MaxHitPoints>
       <WorkToMake>16000</WorkToMake>
       <Bulk>7</Bulk>
       <WornBulk>3.5</WornBulk>
