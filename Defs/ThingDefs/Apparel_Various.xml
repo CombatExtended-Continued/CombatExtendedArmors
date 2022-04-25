@@ -273,8 +273,8 @@
     <recipeMaker>
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
     </recipeMaker>
-    <techLevel>Industrial</techLevel>
-    <costStuffCount>80</costStuffCount>
+    <techLevel>Neolithic</techLevel>
+    <costStuffCount>90</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
@@ -461,7 +461,7 @@
       <li>ApparelArmor</li>
     </thingCategories>
     <statBases>
-      <MaxHitPoints>200</MaxHitPoints>
+      <MaxHitPoints>260</MaxHitPoints>
       <WorkToMake>16000</WorkToMake>
       <Bulk>7</Bulk>
       <WornBulk>3.5</WornBulk>
@@ -472,7 +472,6 @@
       <ArmorRating_Blunt>1.0</ArmorRating_Blunt>
       <ArmorRating_Heat>0.1</ArmorRating_Heat>
       <StuffEffectMultiplierInsulation_Cold>0.8</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>5</EquipDelay>
     </statBases>
     <apparel>
