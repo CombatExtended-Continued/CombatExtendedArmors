@@ -285,7 +285,7 @@
       <Mass>2.5</Mass>
       <Bulk>8.5</Bulk>
       <WornBulk>2.5</WornBulk>
-      <StuffEffectMultiplierArmor>5</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>6</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.7</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>3</EquipDelay>
