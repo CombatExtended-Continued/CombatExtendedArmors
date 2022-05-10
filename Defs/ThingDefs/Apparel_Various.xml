@@ -10,7 +10,6 @@
     <graphicData>
       <texPath>Things/Apparel/Gambeson/Gambeson</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <recipeMaker>
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
