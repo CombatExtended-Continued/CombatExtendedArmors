@@ -471,7 +471,7 @@
       <ArmorRating_Blunt>1.0</ArmorRating_Blunt>
       <ArmorRating_Heat>0.1</ArmorRating_Heat>
       <StuffEffectMultiplierInsulation_Cold>0.8</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+      <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>5</EquipDelay>
     </statBases>
     <apparel>
