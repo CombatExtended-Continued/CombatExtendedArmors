@@ -22,7 +22,7 @@
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
       <WorkToMake>6000</WorkToMake>
-      <Mass>3.5</Mass>
+      <Mass>3.0</Mass>
       <Bulk>8</Bulk>
       <WornBulk>3.0</WornBulk>
       <StuffEffectMultiplierArmor>4</StuffEffectMultiplierArmor>
@@ -196,12 +196,11 @@
     </stuffCategories>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
-      <WorkToMake>8000</WorkToMake>
+      <WorkToMake>7000</WorkToMake>
       <Mass>1.0</Mass>
       <Bulk>5</Bulk>
       <WornBulk>2.0</WornBulk>
       <StuffEffectMultiplierArmor>3</StuffEffectMultiplierArmor>
-      <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
       <StuffEffectMultiplierInsulation_Cold>0.6</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>3</EquipDelay>
@@ -243,15 +242,9 @@
             </parts>
           </li>
            <li>
-            <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+            <ArmorRating_Blunt>0.66</ArmorRating_Blunt>
             <parts>
               <li>Hand</li>
-            </parts>
-          </li>
-          <li>
-            <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
-            <parts>
-              <li>Foot</li>
             </parts>
           </li>
         </stats>
@@ -281,7 +274,7 @@
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <WorkToMake>10000</WorkToMake>
-      <Mass>2.5</Mass>
+      <Mass>2.0</Mass>
       <Bulk>8.5</Bulk>
       <WornBulk>2.5</WornBulk>
       <StuffEffectMultiplierArmor>6</StuffEffectMultiplierArmor>
@@ -464,7 +457,7 @@
       <WorkToMake>16000</WorkToMake>
       <Bulk>7</Bulk>
       <WornBulk>3.5</WornBulk>
-      <Mass>5.0</Mass>
+      <Mass>4.0</Mass>
       <Flammability>0.6</Flammability>
       <StuffEffectMultiplierArmor>4</StuffEffectMultiplierArmor>
       <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
