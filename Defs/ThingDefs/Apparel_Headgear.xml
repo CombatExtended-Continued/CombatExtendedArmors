@@ -160,7 +160,7 @@
     </apparel>
     <recipeMaker>
       <researchPrerequisite>FlakArmor</researchPrerequisite>
-      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
