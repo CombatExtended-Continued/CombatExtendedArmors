@@ -18,7 +18,7 @@
       <li>Fabric</li>
     </stuffCategories>
     <statBases>
-      <MaxHitPoints>75</MaxHitPoints>
+      <MaxHitPoints>100</MaxHitPoints>
       <WorkToMake>2200</WorkToMake>
       <Mass>0.35</Mass>
       <Bulk>0.5</Bulk>
@@ -129,7 +129,7 @@
       <Chemfuel>15</Chemfuel>
     </costList>
     <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
+      <MaxHitPoints>75</MaxHitPoints>
       <WorkToMake>5500</WorkToMake>
       <Mass>0.2</Mass>
       <Bulk>0.5</Bulk>
