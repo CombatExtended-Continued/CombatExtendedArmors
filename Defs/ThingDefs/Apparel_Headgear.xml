@@ -125,11 +125,11 @@
     <techLevel>Industrial</techLevel>
     <generateCommonality>0.25</generateCommonality>
     <costList>
-      <Steel>30</Steel>
-      <Chemfuel>40</Chemfuel>
+      <Steel>10</Steel>
+      <Chemfuel>15</Chemfuel>
     </costList>
     <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
+      <MaxHitPoints>75</MaxHitPoints>
       <WorkToMake>5500</WorkToMake>
       <Mass>0.2</Mass>
       <Bulk>0.5</Bulk>
