@@ -108,7 +108,7 @@
     <techLevel>Medieval</techLevel>
     <costStuffCount>80</costStuffCount>
     <stuffCategories>
-      <li>Metallic</li>
+      <li>Steeled</li>
     </stuffCategories>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
