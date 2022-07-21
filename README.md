@@ -9,10 +9,12 @@ This mod adds several new apparel designed to take advantage of new CE mechanics
 - Large backpack
 ### Headgear
 - Balaclava
+- Sombrero
 - Ballistic goggles
 ### Other
 - Gambeson
 - Cuirass
 - Jumpsuit
+- Poncho
 - Soft armor vest
 - Frag suit
