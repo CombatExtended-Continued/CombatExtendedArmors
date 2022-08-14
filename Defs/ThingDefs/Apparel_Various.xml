@@ -274,7 +274,7 @@
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <WorkToMake>10000</WorkToMake>
-      <Mass>2.0</Mass>
+      <Mass>2.5</Mass>
       <Bulk>8.5</Bulk>
       <WornBulk>2.5</WornBulk>
       <StuffEffectMultiplierArmor>6</StuffEffectMultiplierArmor>
