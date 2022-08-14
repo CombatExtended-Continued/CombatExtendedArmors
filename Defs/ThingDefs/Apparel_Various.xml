@@ -20,7 +20,7 @@
       <li>Fabric</li>
     </stuffCategories>
     <statBases>
-      <MaxHitPoints>120</MaxHitPoints>
+      <MaxHitPoints>150</MaxHitPoints>
       <WorkToMake>6000</WorkToMake>
       <Mass>3.0</Mass>
       <Bulk>8</Bulk>
