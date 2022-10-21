@@ -14,6 +14,7 @@
     <recipeMaker>
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
     </recipeMaker>
+    <possessionCount>1</possessionCount>
     <techLevel>Medieval</techLevel>
     <costStuffCount>100</costStuffCount>
     <stuffCategories>
@@ -86,6 +87,10 @@
         </stats>
       </li>
     </modExtensions>
+    <tradeTags>
+      <li>Clothing</li>
+      <li>Armor</li>
+    </tradeTags>
   </ThingDef>
 
   <!-- ==================== Cuirass ==================== -->
@@ -98,6 +103,7 @@
       <texPath>Things/Apparel/Cuirass/Cuirass</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <possessionCount>1</possessionCount>
     <recipeMaker>
       <researchPrerequisite>PlateArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
@@ -173,6 +179,10 @@
       </li>
     </modExtensions>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <tradeTags>
+      <li>Clothing</li>
+      <li>Armor</li>
+    </tradeTags>
   </ThingDef>
 
   <!-- ==================== Jumpsuit ==================== -->
@@ -185,6 +195,7 @@
       <texPath>Things/Apparel/Jumpsuit/Jumpsuit</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <possessionCount>1</possessionCount>
     <recipeMaker>
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
     </recipeMaker>
@@ -250,6 +261,9 @@
         </stats>
       </li>
     </modExtensions>
+    <tradeTags>
+      <li>BasicClothing</li>
+    </tradeTags>
   </ThingDef>
 
   <!-- ==================== Poncho ==================== -->
@@ -262,6 +276,7 @@
       <texPath>Things/Apparel/Poncho/Poncho</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <possessionCount>1</possessionCount>
     <recipeMaker>
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
     </recipeMaker>
@@ -334,6 +349,9 @@
         </stats>
       </li>
     </modExtensions>
+    <tradeTags>
+      <li>BasicClothing</li>
+    </tradeTags>
   </ThingDef>
 
   <!-- ==================== Soft Armor Vest ==================== -->
@@ -346,6 +364,7 @@
       <texPath>Things/Apparel/SoftArmorVest/SoftArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <possessionCount>1</possessionCount>
     <recipeMaker>
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
       <skillRequirements>
@@ -421,6 +440,9 @@
         </stats>
       </li>
     </modExtensions>
+    <tradeTags>
+      <li>Armor</li>
+    </tradeTags>
   </ThingDef>
 
   <!-- ==================== Frag Suit ==================== -->
@@ -433,6 +455,7 @@
       <texPath>Things/Apparel/FragSuit/FragSuit</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <possessionCount>1</possessionCount>
     <recipeMaker>
       <researchPrerequisite>FlakArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
@@ -527,6 +550,10 @@
         </stats>
       </li>
     </modExtensions>
+    <tradeTags>
+      <li>Clothing</li>
+      <li>Armor</li>
+    </tradeTags>
   </ThingDef>
 
 </Defs>

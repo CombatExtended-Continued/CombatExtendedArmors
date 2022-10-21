@@ -11,6 +11,7 @@
       <texPath>Things/Apparel/LargeBackpack/LargeBackpack</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <possessionCount>1</possessionCount>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
       <WorkToMake>10000</WorkToMake>
@@ -74,6 +75,9 @@
           <fat>   <scale>(1,1)</scale></fat>
       </wornGraphicData>
     </apparel>
+    <tradeTags>
+      <li>Clothing</li>
+    </tradeTags>
   </ThingDef>
 
 </Defs>

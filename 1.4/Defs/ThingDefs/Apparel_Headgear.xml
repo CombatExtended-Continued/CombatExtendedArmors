@@ -11,6 +11,7 @@
       <texPath>Things/Apparel/Balaclava/Balaclava</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <possessionCount>1</possessionCount>
     <techLevel>Industrial</techLevel>
     <generateCommonality>0.1</generateCommonality>
     <costStuffCount>25</costStuffCount>
@@ -48,6 +49,9 @@
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
     </recipeMaker>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <tradeTags>
+      <li>BasicClothing</li>
+    </tradeTags>
   </ThingDef>
 
   <!-- ==================== Sombrero ==================== -->
@@ -60,6 +64,7 @@
       <texPath>Things/Apparel/Sombrero/Sombrero</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <possessionCount>1</possessionCount>
     <techLevel>Industrial</techLevel>
     <generateCommonality>0.5</generateCommonality>
     <costStuffCount>30</costStuffCount>
@@ -110,6 +115,9 @@
         </li>
       </options>
     </colorGenerator>
+    <tradeTags>
+      <li>BasicClothing</li>
+    </tradeTags>
   </ThingDef>
 
   <!-- ==================== Ballistic Goggles ==================== -->
@@ -122,6 +130,7 @@
       <texPath>Things/Apparel/BallisticGoggles/BallisticGoggles</texPath>
       <graphicClass>Graphic_Single</graphicClass> 
     </graphicData>
+    <possessionCount>1</possessionCount>
     <techLevel>Industrial</techLevel>
     <generateCommonality>0.25</generateCommonality>
     <costList>
@@ -165,6 +174,9 @@
         <Crafting>6</Crafting>
       </skillRequirements>
     </recipeMaker>
+    <tradeTags>
+      <li>Armor</li>
+    </tradeTags>
   </ThingDef>
 
 </Defs>
