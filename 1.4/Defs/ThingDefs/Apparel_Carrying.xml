@@ -13,7 +13,7 @@
     </graphicData>
     <possessionCount>1</possessionCount>
     <recipeMaker>
-      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <researchPrerequisite>Machining</researchPrerequisite>
     </recipeMaker>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
