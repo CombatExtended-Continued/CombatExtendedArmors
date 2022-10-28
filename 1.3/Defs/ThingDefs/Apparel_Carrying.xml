@@ -28,7 +28,6 @@
     <apparel>
       <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <careIfDamaged>false</careIfDamaged>
-      <careIfWornByCorpse>false</careIfWornByCorpse>
       <bodyPartGroups>
         <li>Shoulders</li>
       </bodyPartGroups>
