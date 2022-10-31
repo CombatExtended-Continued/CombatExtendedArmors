@@ -27,7 +27,10 @@
     <equippedStatOffsets>
       <CarryBulk>50</CarryBulk>
     </equippedStatOffsets>
-    <costStuffCount>60</costStuffCount>
+    <costList>
+      <Steel>10</Steel>
+    </costList>
+    <costStuffCount>50</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
