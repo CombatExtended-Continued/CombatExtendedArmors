@@ -112,7 +112,6 @@
     <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
-          <weight>20</weight>
           <only>(0.45,0.3,0.1,1)</only>
         </li>
       </options>

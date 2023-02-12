@@ -326,7 +326,6 @@
     <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
-          <weight>20</weight>
           <only>(0.43,0.07,0.07,1)</only>
         </li>
       </options>
@@ -515,8 +514,7 @@
     <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
-          <weight>1</weight>
-          <only>RGBA(0.47,0.48,0.41,1)</only>
+          <only>(0.47,0.48,0.41,1)</only>
         </li>
       </options>
     </colorGenerator>
