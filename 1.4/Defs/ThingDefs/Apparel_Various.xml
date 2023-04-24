@@ -122,7 +122,7 @@
       <Bulk>20</Bulk>
       <WornBulk>4.0</WornBulk>
       <Mass>7.5</Mass>
-      <StuffEffectMultiplierArmor>4.0</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>4.5</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.12</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>6</EquipDelay>
