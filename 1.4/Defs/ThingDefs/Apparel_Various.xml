@@ -122,7 +122,7 @@
       <Bulk>20</Bulk>
       <WornBulk>4.0</WornBulk>
       <Mass>7.5</Mass>
-      <StuffEffectMultiplierArmor>3.0</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierArmor>4.5</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.12</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>6</EquipDelay>
@@ -164,13 +164,13 @@
             </parts>
           </li>
           <li>
-            <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+            <ArmorRating_Sharp>0.60</ArmorRating_Sharp>
             <parts>
               <li>Shoulder</li>
             </parts>
           </li>
           <li>
-            <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+            <ArmorRating_Blunt>0.60</ArmorRating_Blunt>
             <parts>
               <li>Shoulder</li>
             </parts>
