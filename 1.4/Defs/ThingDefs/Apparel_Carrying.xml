@@ -17,6 +17,9 @@
         <li>ComplexClothing</li>
         <li>Machining</li>
       </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>

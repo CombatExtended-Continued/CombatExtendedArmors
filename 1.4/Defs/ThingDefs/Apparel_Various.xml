@@ -13,6 +13,9 @@
     </graphicData>
     <recipeMaker>
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
     </recipeMaker>
     <possessionCount>1</possessionCount>
     <techLevel>Medieval</techLevel>
