@@ -23,6 +23,9 @@
     <stuffCategories>
       <li>Fabric</li>
     </stuffCategories>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
       <WorkToMake>6000</WorkToMake>
@@ -36,9 +39,6 @@
       <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>4</EquipDelay>
     </statBases>
-    <thingCategories>
-      <li>Apparel</li>
-    </thingCategories>
     <apparel>
       <bodyPartGroups>
         <li>Neck</li>
@@ -208,6 +208,9 @@
       <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <WorkToMake>7000</WorkToMake>
@@ -222,9 +225,6 @@
     <equippedStatOffsets>
       <CarryBulk>10</CarryBulk>
     </equippedStatOffsets>
-    <thingCategories>
-      <li>Apparel</li>
-    </thingCategories>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
@@ -289,6 +289,9 @@
       <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <WorkToMake>10000</WorkToMake>
@@ -304,9 +307,6 @@
       <SocialImpact>0.05</SocialImpact>
       <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
     </equippedStatOffsets>
-    <thingCategories>
-      <li>Apparel</li>
-    </thingCategories>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
