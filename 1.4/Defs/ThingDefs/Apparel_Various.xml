@@ -460,7 +460,7 @@
 		<possessionCount>1</possessionCount>
 		<recipeMaker>
 			<researchPrerequisite>FlakArmor</researchPrerequisite>
-			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+			<unfinishedThingDef>UnfinishedArmoredApparel</unfinishedThingDef>
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
