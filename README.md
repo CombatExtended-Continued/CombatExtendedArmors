@@ -18,3 +18,6 @@ This mod adds several new apparel designed to take advantage of new CE mechanics
 - Poncho
 - Soft armor vest
 - Frag suit
+
+### License
+This mod falls under the [Creative Commons 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/) and may only be shared or modified under the specified terms.
