@@ -8,7 +8,7 @@
 		<label>gambeson</label>
 		<description>A thick padded coat made of lots of fabric layers, protects from cuts and bruises. Comes with a pair of shoes and mittens.</description>
 		<graphicData>
-			<texPath>Things/Apparel_CE/Gambeson/Gambeson</texPath>
+			<texPath>Things/Apparel/CE_Gambeson/Gambeson</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
@@ -45,7 +45,7 @@
 				<li>Hands</li>
 				<li>Feet</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Apparel_CE/Gambeson/Gambeson</wornGraphicPath>
+			<wornGraphicPath>Things/Apparel/CE_Gambeson/Gambeson</wornGraphicPath>
 			<layers>
 				<li>OnSkin</li>
 			</layers>
@@ -95,7 +95,7 @@
 		<label>cuirass</label>
 		<description>A thick metal chest plate providing the wearer with a high protection of the torso area.</description>
 		<graphicData>
-			<texPath>Things/Apparel_CE/Cuirass/Cuirass</texPath>
+			<texPath>Things/Apparel/CE_Cuirass/Cuirass</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
@@ -130,7 +130,7 @@
 				<li>Neck</li>
 				<li>Shoulders</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Apparel_CE/Cuirass/Cuirass</wornGraphicPath>
+			<wornGraphicPath>Things/Apparel/CE_Cuirass/Cuirass</wornGraphicPath>
 			<layers>
 				<li>Middle</li>
 			</layers>
@@ -182,7 +182,7 @@
 		<label>jumpsuit</label>
 		<description>A full body jumpsuit made out of thick fabric or leather. Excellent for general body protection and manual labour. Comes with a pair of shoes and gloves.</description>
 		<graphicData>
-			<texPath>Things/Apparel_CE/Jumpsuit/Jumpsuit</texPath>
+			<texPath>Things/Apparel/CE_Jumpsuit/Jumpsuit</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
@@ -221,7 +221,7 @@
 				<li>Hands</li>
 				<li>Feet</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Apparel_CE/Jumpsuit/Jumpsuit</wornGraphicPath>
+			<wornGraphicPath>Things/Apparel/CE_Jumpsuit/Jumpsuit</wornGraphicPath>
 			<layers>
 				<li>OnSkin</li>
 			</layers>
@@ -259,7 +259,7 @@
 		<label>poncho</label>
 		<description>An outer garment designed to keep the body warm. It has an extra piece of fabric serving as a hood to ward off wind and rain.</description>
 		<graphicData>
-			<texPath>Things/Apparel_CE/Poncho/Poncho</texPath>
+			<texPath>Things/Apparel/CE_Poncho/Poncho</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
@@ -297,7 +297,7 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Apparel_CE/Poncho/Poncho</wornGraphicPath>
+			<wornGraphicPath>Things/Apparel/CE_Poncho/Poncho</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
 			</layers>
@@ -343,7 +343,7 @@
 		<label>soft armor vest</label>
 		<description>A soft armor vest, significantly lighter than plate carriers but less protective.</description>
 		<graphicData>
-			<texPath>Things/Apparel_CE/SoftArmorVest/SoftArmor</texPath>
+			<texPath>Things/Apparel/CE_SoftArmorVest/SoftArmor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
@@ -380,7 +380,7 @@
 				<li>Neck</li>
 				<li>Shoulders</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Apparel_CE/SoftArmorVest/SoftArmor</wornGraphicPath>
+			<wornGraphicPath>Things/Apparel/CE_SoftArmorVest/SoftArmor</wornGraphicPath>
 			<layers>
 				<li>Middle</li>
 			</layers>
@@ -430,7 +430,7 @@
 		<label>frag suit</label>
 		<description>A bodysuit padded with armor fabrics, worn under plate carrier for protection of limbs against shrapnel. Comes with a pair and boots and gloves.</description>
 		<graphicData>
-			<texPath>Things/Apparel_CE/FragSuit/FragSuit</texPath>
+			<texPath>Things/Apparel/CE_FragSuit/FragSuit</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
@@ -477,7 +477,7 @@
 				<li>Hands</li>
 				<li>Feet</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Apparel_CE/FragSuit/FragSuit</wornGraphicPath>
+			<wornGraphicPath>Things/Apparel/CE_FragSuit/FragSuit</wornGraphicPath>
 			<layers>
 				<li>OnSkin</li>
 			</layers>
