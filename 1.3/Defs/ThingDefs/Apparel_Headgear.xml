@@ -8,7 +8,7 @@
 		<label>balaclava</label>
 		<description>A full face textile mask. Hides the identity of the wearer while providing warmth.</description>
 		<graphicData>
-			<texPath>Things/Apparel/Balaclava/Balaclava</texPath>
+			<texPath>Things/Apparel_CE/Balaclava/Balaclava</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<techLevel>Industrial</techLevel>
@@ -33,7 +33,7 @@
 				<li>UpperHead</li>
 				<li>Teeth</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Apparel/Balaclava/Balaclava</wornGraphicPath>
+			<wornGraphicPath>Things/Apparel_CE/Balaclava/Balaclava</wornGraphicPath>
 			<layers>
 				<li>OnHead</li>
 			</layers>
@@ -57,7 +57,7 @@
 		<label>sombrero</label>
 		<description>A type of wide-brimmed hat used to shield the face and eyes from the sun.</description>
 		<graphicData>
-			<texPath>Things/Apparel/Sombrero/Sombrero</texPath>
+			<texPath>Things/Apparel_CE/Sombrero/Sombrero</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<techLevel>Industrial</techLevel>
@@ -87,7 +87,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Apparel/Sombrero/Sombrero</wornGraphicPath>
+			<wornGraphicPath>Things/Apparel_CE/Sombrero/Sombrero</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -119,7 +119,7 @@
 		<label>ballistic goggles</label>
 		<description>A pair of reinforced goggles capable of stopping shrapnel.</description>
 		<graphicData>
-			<texPath>Things/Apparel/BallisticGoggles/BallisticGoggles</texPath>
+			<texPath>Things/Apparel_CE/BallisticGoggles/BallisticGoggles</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<techLevel>Industrial</techLevel>
@@ -146,7 +146,7 @@
 			<bodyPartGroups>
 				<li>Eyes</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Apparel/BallisticGoggles/BallisticGoggles</wornGraphicPath>
+			<wornGraphicPath>Things/Apparel_CE/BallisticGoggles/BallisticGoggles</wornGraphicPath>
 			<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
 			<layers>
 				<li>StrappedHead</li>
