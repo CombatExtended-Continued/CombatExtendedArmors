@@ -8,7 +8,7 @@
 		<label>large backpack</label>
 		<description>A large hiking pack, functionally identical to the ones issued to infantrymen of industrial militaries.</description>
 		<graphicData>
-			<texPath>Things/Apparel/LargeBackpack/LargeBackpack</texPath>
+			<texPath>Things/Apparel/CE_LargeBackpack/LargeBackpack</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -41,7 +41,7 @@
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
-			<wornGraphicPath>Things/Apparel/LargeBackpack/LargeBackpack</wornGraphicPath>
+			<wornGraphicPath>Things/Apparel/CE_LargeBackpack/LargeBackpack</wornGraphicPath>
 			<wornGraphicData>
 				<renderUtilityAsPack>true</renderUtilityAsPack>
 				<east>
