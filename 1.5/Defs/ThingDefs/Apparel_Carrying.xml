@@ -39,6 +39,14 @@
 			<li>Leathery</li>
 		</stuffCategories>
 		<apparel>
+			<renderNodeProperties> <!-- Allows visibility to be toggled in the mod options. -->
+				<li>
+					<nodeClass>PawnRenderNode_Apparel</nodeClass>
+					<workerClass>CombatExtended.PawnRenderNodeWorker_Backpack</workerClass>
+					<parentTagDef>ApparelBody</parentTagDef>
+					<baseLayer>30</baseLayer>
+				</li>
+			</renderNodeProperties>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<careIfDamaged>false</careIfDamaged>
 			<bodyPartGroups>
