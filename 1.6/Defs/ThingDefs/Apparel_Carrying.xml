@@ -39,14 +39,25 @@
 			<li>Leathery</li>
 		</stuffCategories>
 		<apparel>
-			<renderNodeProperties> <!-- Allows visibility to be toggled in the mod options. -->
+		<!--<renderNodeProperties> Currently disabled due to a regression in vanilla apparel handling
 				<li>
 					<nodeClass>PawnRenderNode_Apparel</nodeClass>
-					<workerClass>CombatExtended.PawnRenderNodeWorker_Backpack</workerClass>
+					<workerClass>PawnRenderNodeWorker_Apparel_Body</workerClass>
 					<parentTagDef>ApparelBody</parentTagDef>
 					<baseLayer>30</baseLayer>
+					<drawData>
+						<dataNorth>
+							<layer>93</layer>
+						</dataNorth>
+						<dataSouth>
+							<layer>-3</layer>
+						</dataSouth>
+					</drawData>
+					<subworkerClasses>
+						<li>CombatExtended.PawnRenderSubWorker_Backpack</li>
+					</subworkerClasses>
 				</li>
-			</renderNodeProperties>
+			</renderNodeProperties>-->
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<careIfDamaged>false</careIfDamaged>
 			<bodyPartGroups>
@@ -132,6 +143,11 @@
 		<tradeTags>
 			<li>Clothing</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="CombatExtended.ApparelDefExtension">
+				<isBackpack>true</isBackpack> <!-- Temporary solution for render toggling -->
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 </Defs>
